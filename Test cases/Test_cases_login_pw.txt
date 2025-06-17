@@ -1,0 +1,24 @@
+Test cases for the login/password feature
+
+
+Assumptions of requirements:  
+1. Combination of valid Username and Corresponding Password lets users sign in.
+2. Any other combination is invalid and should be rejected.
+3. Password input field  is masked.
+4. Fields cannot be empty.
+5. Password cannot be cut or copied
+
+
+Precondition: at least two accounts are existing for testing. 
+Test Data: 
+User 1 (Username : Test1, pw: 12345p), 
+User 2 (Username: Test2, pw: 54321p)
+
+Test cases:
+1. User can log in with  valid login + corresponding password
+2.1 User cannot be login with invalid Username and valid Password 
+2.2 User cannot be login with valid/existing Username and invalid/not corresponding Password 
+3. Password is masked
+4.1  field Username  cannot be empty
+4.2. field Password  cannot be empty
+5. Input in the Password cannot be copied or cut 
