@@ -1,0 +1,55 @@
+Test cases for testing a pencil.
+
+Assumptions of requirements:  
+1. Pencil write the line on the piece of paper,
+2. Has an eraser attached,
+3.  User can sharp it,
+4. It has info on its surface,
+5. Physical dimensions
+
+Test cases:
+1. Write the line on the piece of standard office paper. 
+Preconditions: pencil sharpened,  piece of standard office paper available.
+2. Erase the line (from Test 1) with the eraser attached.
+3. Sharp the pencil with sharpener (Precondition: pencil is not sharpened before. Electric sharpener or manual sharpener is available).
+4. Verify that info on the surface matches the spec.
+5. Verify that  physical dimensions match the spec.
+
+**************************************************
+
+Test case for testing a bathroom scale
+
+* we do not make sure that the scale is in testable condition
+
+Assumptions of requirements: 
+* digital/electric (not mechanical)
+* battery powered
+- the scale will show the weight of a person stepping on it
+- switching from kilos to pounds
+- limited to 300lb
+- needs 3+ lb of weight to turn on
+- precision = 0.2 lb/0.1 for kilos
+
+Preconditions
+- the device is powered with proper batteries
+- all the objects of certain weight needed for testing are available
+- the floor is flat/horizontal
+- etalon scale is available to compare results
+
+Test Data: weights available
+- 3.0 lb object
+- 3.1 lb object
+- person with 100-200 lb weight
+- 300.0 lb object
+- 300.1 lb object
+
+Tests:
+1. Person takes measurement in kilos on both scales				weight reading are identical
+2. Person takes measurement in pounds on both scales				weight reading are identical
+3. 3.0 lb object								scale not turning on
+4. 3.1 lb object								scale turned on
+5. 300.0 lb object								scale showing 300.0 weight
+6. 300.1 lb object								scale showing error msg/300.0
+
+
+
