@@ -1,0 +1,31 @@
+Bug Report: 
+Login Button Unresponsive on Chrome
+
+Summary:
+Login button does not respond when clicked 
+
+Steps to Reproduce:
+1. Open Google Chrome 
+2. Go to the login page: https://utest.com/login
+3. Enter valid email and password.
+4. Click the Login button.
+
+Expected Result:
+User is successfully logged in and redirected to the dashboard.
+
+Actual Result:
+Nothing happens. The page stays on the login form. No error is shown.
+
+Environment:
+Chrome v125.0.0
+OS: Windows 10
+
+Additional Info:
+The issue does not occur on Firefox or Safari.
+
+Severity: Medium
+Priority: High
+
+Attachments:
+[Screenshot and screen recording, log file]
+
